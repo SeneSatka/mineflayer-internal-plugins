@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "outDir": "./dist/cjs",
+    "module": "CommonJS",
+    "declaration": true,
+    "declarationDir": "./dist/typings"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "lib": ["ESNext"],
+      "target": "ESNext",
+      "module": "CommonJS",
+      "esModuleInterop": true
+    }
+  },
+  "include": ["src"]
+}

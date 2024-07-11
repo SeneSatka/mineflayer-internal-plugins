@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "outDir": "./dist/esm",
+    "module": "esnext"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "lib": ["ESNext"],
+      "target": "ESNext",
+      "module": "ESNext",
+      "esModuleInterop": true
+    }
+  },
+  "include": ["src"]
+}
